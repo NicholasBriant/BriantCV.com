@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+	font-family: 'Dosis', sans-serif;
+	scroll-behavior:smooth;
+	
+}
+body{
+	background-color:#444252;
+}
+
+.page2{
+	
+}
+
+.sectdebut{ 
+	text-shadow: 25px 25px 40px black;
+	height: 100vh; 
+	display: flex;
+	justify-content: center;
+	text-align: center; 
+	flex-direction: column;
+	background-size: cover;/**/
+	background-repeat: no-repeat; /*l'image prend toute la taille du background et ne scroll pas*/
+	background-attachment: fixed;/**/
+	color:white;
+
+
+}
+
+.sectdebut:first-of-type { 
+	background-image: url(font2.jpg); 
+	text-transform: uppercase;
+	font-size: 5vw;
+}
+
+.sectdebut:nth-of-type(2) { 
+	height: 40vh; 
+	background-image: url(fond.jpg);
+	box-shadow: 1px 1px 20px black;
+}
+
+.sectdebut h1{
+	font-size: 7vw; 
+	text-shadow: 25px 25px 40px black;
+	transition:all 1.5s;
+	font-weight: 100;
+}
+
+.sectdebut a{
+	text-shadow: 25px 25px 40px black;
+	transition:all 1.5s;
+	font-size: 5vw;
+	font-weight: 100;
+	color : white;
+	text-decoration: none;
+
+}
+
+.sectdebut h2{
+	text-shadow: 25px 25px 40px black;
+	transition:all 1.5s;
+	font-size: 2vw;
+	font-weight: 100;
+	color : white;
+}
+
+
+.sectdebut h1:hover{
+	transition:all 1s;
+	color:black;
+	text-shadow: 5px 5px 3px white;
+	
+}
+
+.sectdebut h2:hover{
+	transition:all 1s;
+	color:white;
+	text-shadow: 0px 5px 20px red;
+	
+}
+
+.sectdebut a:hover{
+	transition:all 1s;
+	font-size: 6vw;
+	text-decoration: underline;
+}
+
+section{
+	height:10vw;
+}
+
+.placement{
+	display:flex;
+	width:auto;
+	height:auto;
+	align-items:center;
+	justify-content:center;	
+
+	background:white;
+}
+
+.elem{
+	box-shadow: 1px 1px 20px black;
+	background-color:white;
+	padding:2vw;
+	margin:3vw;
+	transition:all 1s;
+}
+
+.elem:hover{
+	display:flex;
+	background-color:black;
+	color:white;
+}
+
+.elemimg{
+	width:15vw;
+	transition:0.5s;
+}
+
+.elem.eleming:hover{
+		display:flex;
+}
+
+.elemimg:hover{
+	width:35vw;
+}
+/* page 2 : */
+  .container1 {
+	background-image: url(fond.jpg);
+	width: 100vw;
+	height:100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .container {
+	width: 50%;
+	height:auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  .divQuiBouge {
+	overflow : visible;
+	background-color: white;
+	width:50%;
+	height:75%;
+	box-shadow: 5px 7px 20px rgb(43, 43, 43);
+	transform-style: preserve-3d;
+  }
+  
+
+  .forme{
+	width: 10vw;
+	height: 10vw;
+	border-radius: 50%;
+	position : absolute;
+	background: linear-gradient(
+	  to left,
+	  rgba(37, 218, 91, 0.75),
+	  rgba(8, 83, 156, 0.75)
+	);
+
+	z-index: 1;
+  }
+  .matete{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+  }
+
+  .mateteimg{
+	width: 10vw;
+	z-index : 2;/* Comme ça ma tete est devant la forme  */
+  }
+  
+  .titreInfo {
+	transition: all 0.75s;
+	font-size: 2vw;
+	color:black;
+	padding-top:2vw;
+	text-align: center;
+  }
+
+  .info p{
+	transition: all 0.75s;
+	font-size: 15px;
+	color:black;
+	padding:1vw;
+	text-align: center;
+	overflow: auto;
+  }
+
+  .bouton {
+	display: flex;
+	margin-top: 3vw;
+	margin-bottom: 2vw;
+	align-items: center;
+	justify-content: center;
+  }
+  .bouton button {
+	width: 70%;
+	box-shadow: 2px 3px 10px rgb(43, 43, 43);
+	padding: 1vw 2vw;
+	border-radius: 40px;
+	background: #ce1a17;
+	border: none;
+	cursor: pointer;
+  }
+
+  .bouton a{
+	  color:white;
+	  text-decoration: none;
+	  font-size: 15px;
+	  font-weight: lighter;
+  }
+
+  .bouton button:hover{
+	background: #c73d3b;
+}
+
+  .bouton2 {
+	display: flex;
+	margin-bottom: 1vw;
+	align-items: center;
+	justify-content: center;
+  }
+  .bouton2 button {
+	width: 70%;
+	box-shadow: 2px 3px 10px rgb(43, 43, 43);
+	padding: 0.5vw;
+	border-radius: 40px;
+	background: #080808;
+	border: none;
+	cursor: pointer;
+  }
+
+  .bouton2 a{
+	  color:white;
+	  text-decoration: none;
+	  font-size: 15px;
+	  font-weight: lighter;
+  }
+
+  .bouton2 button:hover{
+	background: #383838;
+}
