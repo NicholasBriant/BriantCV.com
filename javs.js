@@ -20,7 +20,7 @@ container.addEventListener("mousemove", (e) => { //ça récupere les x et y de l
     divQuiBouge.style.transition = "none";
     //pour mettre en "3d", en fait ça met juste le texte en avant
     info.style.transform = "translateZ(150px)";
-    mateteimg.style.transform = "translateZ(100px)";
+    mateteimg.style.transform = "translateZ(100px) rotateX(360deg)";
     parainfo.style.transform = "translateZ(100px)";
     parainfo.style.transform = "translateZ(100px)";
     parainfo2.style.transform = "translateZ(100px)";
@@ -33,5 +33,4 @@ container.addEventListener("mousemove", (e) => { //ça récupere les x et y de l
   container.addEventListener("mouseleave", (e) => { //Pour remettre divQuiBouge dans son état d'origine
     divQuiBouge.style.transition = "all 0.5s ease";
     divQuiBouge.style.transform = `rotateY(0deg) rotateX(0deg)`;
-    //Popback
   });
