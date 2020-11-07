@@ -27,6 +27,7 @@ container.addEventListener("mousemove", (e) => { //ça récupere les x et y de l
     parainfo3.style.transform = "translateZ(100px)";
     parainfo4.style.transform = "translateZ(100px)";
     parainfo5.style.transform = "translateZ(100px)";
+    
   });
 
 
