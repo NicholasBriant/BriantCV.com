@@ -10,8 +10,8 @@ const parainfo5 = document.querySelector(".paraInfo5");
 
 
 container.addEventListener("mousemove", (e) => { //ça récupere les x et y de la souris et ça oriente la divQuiBouge en fonction
-    let xAxis = (window.innerWidth/2 - e.pageX) / 20; // le/20 c'est pour freiner un peu le truc
-    let yAxis = (window.innerHeight/2 - e.pageY) / 20;
+    let xAxis = (window.innerWidth/2 - e.pageX) / 2; // le/20 c'est pour freiner un peu le truc
+    let yAxis = (window.innerHeight/2 - e.pageY) / 2;
     divQuiBouge.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
   });
 
