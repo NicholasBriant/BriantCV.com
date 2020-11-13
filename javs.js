@@ -50,6 +50,7 @@ container.addEventListener("mousemove", (e) => { //ça récupere les x et y de l
   });
 
 function cmarrant(){
+    alert("test");
     const mateteimg = document.querySelector(".mateteimg");
     mateteimg.style.transform = "translateZ(1000px)";
 }
