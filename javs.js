@@ -51,5 +51,5 @@ container.addEventListener("mousemove", (e) => { //ça récupere les x et y de l
 
 function cmarrant(){
     const mateteimg = document.querySelector(".mateteimg");
-    mateteimg.style.width= "500px";
+    mateteimg.style.src = "https://3.bp.blogspot.com/-C-inbRO9iCE/VXCBl8kw5hI/AAAAAAAAHWs/ZoRl4D4weaM/s1600/tobey-maguire.jpg";
 }
