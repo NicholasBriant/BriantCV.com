@@ -51,5 +51,5 @@ container.addEventListener("mousemove", (e) => { //ça récupere les x et y de l
 
 function cmarrant(){
     const mateteimg = document.querySelector(".mateteimg");
-    mateteimg.style.width= width*2;
+    mateteimg.style.width= "500px";
 }
