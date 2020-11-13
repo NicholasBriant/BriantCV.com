@@ -34,4 +34,6 @@ container.addEventListener("mousemove", (e) => { //ça récupere les x et y de l
   container.addEventListener("mouseleave", (e) => { //Pour remettre divQuiBouge dans son état d'origine
     divQuiBouge.style.transition = "all 0.5s ease";
     divQuiBouge.style.transform = `rotateY(0deg) rotateX(0deg)`;
+    mateteimg.style.transition = "all 0.5s ease";
+    mateteimg.style.transform = `rotateY(0deg) rotateX(0deg)`;
   });
