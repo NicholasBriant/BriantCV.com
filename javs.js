@@ -49,7 +49,6 @@ container.addEventListener("mousemove", (e) => { //ça récupere les x et y de l
     parainfo5.style.transform = `rotateY(0deg) rotateX(0deg)`;
   });
 
-function cmarrant(){
-    const mateteimg = document.querySelector(".mateteimg");
-    mateteimg.style.src = "testmaguire.png";
-}
+    function changeImage(a) {
+        document.getElementById("mateteimg").src=a;
+    }
