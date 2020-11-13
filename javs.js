@@ -50,5 +50,6 @@ container.addEventListener("mousemove", (e) => { //ça récupere les x et y de l
   });
 
     function changeImage(a) {
-        document.getElementByClass("mateteimg").src=a;
+        const img = document.querySelector(".mateteimg");
+        mateteimg.src=a;
     }
