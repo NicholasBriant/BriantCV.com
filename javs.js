@@ -20,6 +20,9 @@ container.addEventListener("mousemove", (e) => { //ça récupere les x et y de l
     divQuiBouge.style.transition = "none";
     //pour mettre en "3d", en fait ça met juste le texte en avant
     info.style.transform = "translateZ(130px)";
+      
+    mateteimg.style.transform = "rotateX(60deg)"
+      
     mateteimg.style.transform = "translateZ(100px)";
     parainfo.style.transform = "translateZ(105px)";
     parainfo2.style.transform = "translateZ(110px)";
