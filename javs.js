@@ -19,13 +19,13 @@ container.addEventListener("mousemove", (e) => { //ça récupere les x et y de l
   container.addEventListener("mouseenter", (event) => {
     divQuiBouge.style.transition = "none";
     //pour mettre en "3d", en fait ça met juste le texte en avant
-    info.style.transform = "translateZ(150px)";
+    info.style.transform = "translateZ(130px)";
     mateteimg.style.transform = "translateZ(100px)";
-    parainfo.style.transform = "translateZ(100px)";
-    parainfo2.style.transform = "translateZ(100px)";
-    parainfo3.style.transform = "translateZ(100px)";
-    parainfo4.style.transform = "translateZ(100px)";
-    parainfo5.style.transform = "translateZ(100px)";
+    parainfo.style.transform = "translateZ(105px)";
+    parainfo2.style.transform = "translateZ(110px)";
+    parainfo3.style.transform = "translateZ(115px)";
+    parainfo4.style.transform = "translateZ(120px)";
+    parainfo5.style.transform = "translateZ(125px)";
     
   });
 
@@ -35,6 +35,8 @@ container.addEventListener("mousemove", (e) => { //ça récupere les x et y de l
     divQuiBouge.style.transform = `rotateY(0deg) rotateX(0deg)`;
     mateteimg.style.transition = "all 0.5s ease";
     mateteimg.style.transform = `rotateY(0deg) rotateX(0deg)`;
+    info.style.transition = "all 0.5s ease";
+    info.style.transform = `rotateY(0deg) rotateX(0deg)`;
     parainfo.style.transition = "all 0.5s ease";
     parainfo.style.transform = `rotateY(0deg) rotateX(0deg)`;
     parainfo2.style.transition = "all 0.5s ease";
