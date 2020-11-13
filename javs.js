@@ -13,7 +13,6 @@ container.addEventListener("mousemove", (e) => { //ça récupere les x et y de l
     let xAxis = (window.innerWidth/2 - e.pageX) / 20; // le/20 c'est pour freiner un peu le truc
     let yAxis = (window.innerHeight/2 - e.pageY) / 20;
     divQuiBouge.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
-    mateteimg.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
   });
 
 
