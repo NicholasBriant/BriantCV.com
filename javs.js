@@ -53,3 +53,8 @@ container.addEventListener("mousemove", (e) => { //ça récupere les x et y de l
         const img = document.querySelector(".mateteimg");
         mateteimg.src=a;
     }
+
+    document.querySelector(".mateteimg").addEventListener('click', function() {
+        let audio = new Audio("audiospid.mp3");
+        audio.play();
+    });
