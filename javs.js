@@ -49,12 +49,13 @@ container.addEventListener("mousemove", (e) => { //ça récupere les x et y de l
     parainfo5.style.transform = `rotateY(0deg) rotateX(0deg)`;
   });
 
-    function changeImage(a) {
+/*    function changeImage(a) {
         const img = document.querySelector(".mateteimg");
         mateteimg.src=a;
-    }
+    }*/
 
     document.querySelector(".mateteimg").addEventListener('click', function() {
+        mateteimg.src="testmaguire.png";
         let audio = new Audio("audiospid.mp3");
         audio.play();
     });
