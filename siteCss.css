@@ -94,22 +94,25 @@ section{
 	display:flex;
 	width:auto;
 	height:auto;
-	align-items:center;
-	justify-content:center;	
+	/*align-items:center;
+	justify-content:center;	*/
 
 	background:white;
 }
 
 .elem{
+	display:flex;
+	width:100vw;
 	box-shadow: 1px 1px 20px black;
 	background-color:white;
 	padding:2vw;
-	margin:3vw;
+	/*margin:3vw;*/
 	transition:all 1s;
 }
 
 .elem:hover{
-	display:flex;
+	/*display:flex;*/
+	width:150vw;
 	background-color:black;
 	color:white;
 }
@@ -119,9 +122,9 @@ section{
 	transition:0.5s;
 }
 
-.elem.eleming:hover{
+/*.elem.eleming:hover{
 		display:flex;
-}
+}*/
 
 .elemimg:hover{
 	width:35vw;
