@@ -60,5 +60,5 @@ container.addEventListener("mousemove", (e) => { //ça récupere les x et y de l
         audio.play();
         setTimeout(function() {
             document.querySelector(".mateteimg").src = "matete2.jpg";
-        },2000)
+        },1600)
     });
