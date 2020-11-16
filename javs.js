@@ -54,7 +54,7 @@ container.addEventListener("mousemove", (e) => { //ça récupere les x et y de l
         mateteimg.src=a;
     }*/
 
-    document.querySelector(".mateteimg").addEventListener('click', function() {
+    document.querySelector(".mateteimg").addEventListener('mouseenter', function() {
         document.querySelector(".mateteimg").src="testmaguire.png";
         let audio = new Audio("audiospid.mp3");
         audio.play();
