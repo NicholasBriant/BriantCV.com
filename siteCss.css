@@ -104,7 +104,7 @@ section{
 	display:flex;
 	width:100vw;
 	box-shadow: 1px 1px 20px black;
-	background-color:white;
+	background-color:red;
 	padding:2vw;
 	/*margin:3vw;*/
 	transition:all 1s;
