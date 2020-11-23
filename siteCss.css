@@ -6,12 +6,9 @@
 	
 }
 body{
-	background-color:#444252;
+	background-color:white;
 }
 
-.page2{
-	
-}
 
 .sectdebut{ 
 	text-shadow: 25px 25px 40px black;
@@ -28,29 +25,21 @@ body{
 
 }
 
-.sectdebut:first-of-type { 
-	background-image: url(font2.jpg); 
+.sectdebut { 
+	background-image: url(font.jpg); 
 	text-transform: uppercase;
 	font-size: 5vw;
 }
 
-.sectdebut:nth-of-type(2) { 
-	height: 40vh; 
-	background-image: url(fond.jpg);
-	box-shadow: 1px 1px 20px black;
-}
-
 .sectdebut h1{
 	font-size: 7vw; 
-	text-shadow: 25px 25px 40px black;
 	transition:all 1.5s;
 	font-weight: 100;
 }
 
 .sectdebut a{
-	text-shadow: 25px 25px 40px black;
 	transition:all 1.5s;
-	font-size: 5vw;
+	font-size: 3vw;
 	font-weight: 100;
 	color : white;
 	text-decoration: none;
@@ -65,6 +54,22 @@ body{
 	color : white;
 }
 
+.sectdebut button{
+	margin-top: 5vw;
+	width: 30%;
+	box-shadow: 2px 3px 10px rgb(43, 43, 43);
+	padding: 1vw 2vw;
+	border-radius: 5px;
+	background: #e6a417;
+	border: none;
+	cursor: pointer;
+}
+
+.sectdebut button:hover{
+	background: #e6c017;
+
+}
+
 
 .sectdebut h1:hover{
 	transition:all 1s;
@@ -76,14 +81,13 @@ body{
 .sectdebut h2:hover{
 	transition:all 1s;
 	color:white;
-	text-shadow: 0px 5px 20px red;
+	text-shadow: 0px 5px 20px rgb(4, 0, 255);
 	
 }
 
 .sectdebut a:hover{
 	transition:all 1s;
-	font-size: 6vw;
-	text-decoration: underline;
+	font-size: 4vw;
 }
 
 section{
@@ -100,27 +104,34 @@ section{
 	background:white;
 }
 
-.elem{
+.elem:nth-of-type(2){
 	display:flex;
-	width:100%;
+	width:50%;
 	height:auto;
 	background-color:white;
-	padding:2vw;
-	/*margin:3vw;*/
+	padding:4vw;
+	transition:all 1s;
+}
+.elem:nth-of-type(1){
+	display:flex;
+	width:50%;
+	height:auto;
+	background-color:black;
+	color:white;
+	padding:4vw;
 	transition:all 1s;
 }
 
 .elem:hover{
 
-	/*display:flex;*/
-	width:150vw;
-	background-color:black;
-	color:white;
+	width:100%;
+
 }
 
 .elemimg{
 	width:20vw;
 	transition:0.5s;
+	position: relative;
 }
 
 /*.elem.eleming:hover{
@@ -130,9 +141,14 @@ section{
 .elemimg:hover{
 	width:35vw;
 }
+
+
 /* page 2 : */
   .container1 {
-	background-image: url(fond.jpg);
+	background-image: url(font.jpg);
+	background-size: cover;/**/
+	background-repeat: no-repeat; /*l'image prend toute la taille du background et ne scroll pas*/
+	background-attachment: fixed;/**/
 	width: 100vw;
 	height:100vh;
 	display: flex;
